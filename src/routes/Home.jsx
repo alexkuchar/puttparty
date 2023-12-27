@@ -68,7 +68,7 @@ const Home = () => {
         <h2>Lerne 24fire's beste Spieler kennen!</h2>
         <div className="cards">
           <div className="card">
-            <img src="/images/alex.png" alt="Daniel" className="card__icon" />
+            <img src="/images/alex.png" alt="Alex" className="card__icon" />
 
             <h5 className="card__title">Alex</h5>
             <p className="card__text">Ich habe die Website erstellt.</p>
@@ -83,7 +83,7 @@ const Home = () => {
             </p>
           </div>
           <div className="card">
-            <img src="/images/lino.png" alt="Daniel" className="card__icon" />
+            <img src="/images/lino.png" alt="Lino" className="card__icon" />
 
             <h5 className="card__title">Lino</h5>
             <p className="card__text">
@@ -92,7 +92,7 @@ const Home = () => {
             </p>
           </div>
           <div className="card">
-            <img src="/images/lars.png" alt="Daniel" className="card__icon" />
+            <img src="/images/lars.png" alt="Lars" className="card__icon" />
 
             <h5 className="card__title">Lars</h5>
             <p className="card__text">
@@ -101,12 +101,18 @@ const Home = () => {
             </p>
           </div>
           <div className="card">
-            <img src="/images/nico.png" alt="Daniel" className="card__icon" />
+            <img src="/images/nico.png" alt="Nico" className="card__icon" />
 
             <h5 className="card__title">Nico</h5>
             <p className="card__text">
               Nico ist der Alki, und er ist auch dabei.
             </p>
+          </div>
+          <div className="card">
+            <img src="/images/bubbel.gif" alt="Bubbel" className="card__icon" />
+
+            <h5 className="card__title">Bubbelwubbel mit dem Frosch</h5>
+            <p className="card__text">Bubbel wollte auch dabei sein</p>
           </div>
         </div>
       </div>
