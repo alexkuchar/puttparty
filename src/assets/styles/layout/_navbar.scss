@@ -1,7 +1,7 @@
 .navbar {
-  background-color: $light;
+  background-color: transparent;
   box-shadow: $boxShadowSmall;
-  position: sticky;
+  position: fixed;
   top: 0;
 
   &__container {
@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: space-between;
     height: 4rem;
-    width: 85vw;
+    width: 90vw;
     max-width: 100%;
     margin: 0 auto;
     padding: 0 $spacingMedium;
@@ -20,7 +20,7 @@
       color: $secondary;
       font-weight: 900;
       text-decoration: none;
-      transition: all 0.3 ease;
+      transition: color 0.3s ease;
 
       &:hover {
         color: $primary;
@@ -38,7 +38,7 @@
         font-weight: 700;
 
         &:hover {
-          color: $primary;
+          color: $accent;
         }
       }
     }
@@ -48,6 +48,7 @@
     }
 
     @include media-medium {
+      overflow: hidden;
       .menu {
         display: none;
       }
@@ -118,6 +119,7 @@
       background-color: rgba($light, 0.5);
       backdrop-filter: blur(10px);
       transition: all 0.3s ease;
+      z-index: 99;
 
       a {
         font-size: 1.5rem;
