@@ -1,0 +1,55 @@
+/* COLORS */
+$primary: rgb(74, 71, 138);
+$secondary: rgb(8, 20, 72);
+$accent: rgb(218, 138, 139);
+$tertiary: rgb(40, 33, 87);
+$light: rgb(255, 255, 255);
+$dark: rgb(8, 20, 72);
+
+/* FONTS */
+$primaryFontStack: 'Poppins', sans-serif;
+$secondaryFontStack: 'Lato', sans-serif;
+
+/* SPACING */
+$spacingSmall: 0.5rem;
+$spacingMedium: 1rem;
+$spacingLarge: 1.5rem;
+
+/* BORDER RADII */
+$borderRadiusSmall: 0.2rem;
+$borderRadiusMedium: 0.4rem;
+$borderRadiusLarge: 0.6rem;
+
+/* BOX SHADOWS */
+$boxShadowSmall: 0 0.1rem 0.2rem rgba($secondary, 0.1);
+$boxShadowMedium: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+$boxShadowLarge: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+
+/* MEDIA QUERY BREAKPOINTS */
+$breakpointSmall: 480px;
+$breakpointMedium: 768px;
+$breakpointLarge: 1024px;
+
+@mixin media-small {
+  @media (max-width: $breakpointSmall) {
+    @content;
+  }
+}
+
+@mixin media-medium {
+  @media (min-width: $breakpointSmall) and (max-width: $breakpointMedium) {
+    @content;
+  }
+}
+
+@mixin media-large {
+  @media (min-width: $breakpointMedium) and (max-width: $breakpointLarge) {
+    @content;
+  }
+}
+
+@mixin media-extra-large {
+  @media (min-width: $breakpointLarge) {
+    @content;
+  }
+}
