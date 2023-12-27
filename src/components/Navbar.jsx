@@ -41,21 +41,21 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="menu">
           {navItems.map((item, index) => (
-            <Link to={item.href} key={index}>
+            <a href={item.href} key={index}>
               {item.name}
-            </Link>
+            </a>
           ))}
         </div>
       </div>
       <div className={`navbar__mobile ${isActive ? 'active' : 'hidden'}`}>
         {navItems.map((item, index) => (
-          <Link
-            to={item.href}
+          <a
+            href={item.href}
             key={index}
             onClick={() => setIsActive(!isActive)}
           >
             {item.name}
-          </Link>
+          </a>
         ))}
       </div>
     </Router>
