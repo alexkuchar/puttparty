@@ -3,7 +3,7 @@ h2,
 h3,
 h4 {
   font-family: $primaryFontStack;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 900;
   color: $secondary;
   line-height: 3rem;
@@ -18,4 +18,8 @@ code {
   font-family: $secondaryFontStack;
   color: rgba($secondary, 0.8);
   font-weight: 500;
+}
+
+strong {
+  font-weight: 700;
 }
