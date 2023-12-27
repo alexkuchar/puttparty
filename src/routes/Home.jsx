@@ -56,7 +56,7 @@ const Home = () => {
 
             <h5 className="card__title">Warum sollte man PuttParty Spielen?</h5>
             <p className="card__text">
-              Weil PuttyParty helfen kann beim Stressabbau und dir bei deinen
+              Weil PuttParty helfen kann beim Stressabbau und dir bei deinen
               alltäglichen Problemen helfen kann. ~ nico
             </p>
           </div>
