@@ -3,12 +3,9 @@ import { useRouteError } from 'react-router-dom';
 const ErrorPage = () => {
   const error = useRouteError();
   return (
-    <div>
-      <h1>Ooops!</h1>
-      <p>
-        Bring mir ein Keks und eröffne ein issue auf github, vielleicht fixxe ch
-        das.
-      </p>
+    <div className="toobad">
+      <h2>Oops..</h2>
+      <p>Bring mir einen Keks, vielleicht behebe ich den Fehler dann.</p>
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
