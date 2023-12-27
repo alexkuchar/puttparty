@@ -1,0 +1,16 @@
+.error {
+  height: 89.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    line-height: 2.4em;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
