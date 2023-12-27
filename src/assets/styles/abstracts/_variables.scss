@@ -37,19 +37,19 @@ $breakpointLarge: 1024px;
 }
 
 @mixin media-medium {
-  @media (min-width: $breakpointSmall) and (max-width: $breakpointMedium) {
+  @media (max-width: $breakpointMedium) {
     @content;
   }
 }
 
 @mixin media-large {
-  @media (min-width: $breakpointMedium) and (max-width: $breakpointLarge) {
+  @media (max-width: $breakpointLarge) {
     @content;
   }
 }
 
 @mixin media-extra-large {
-  @media (min-width: $breakpointLarge) {
+  @media (max-width: $breakpointLarge) {
     @content;
   }
 }
