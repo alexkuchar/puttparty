@@ -1,9 +1,12 @@
 .toobad {
   height: 89.5vh;
+  max-width: 90vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: auto;
 
   h2 {
     line-height: 2.4em;
