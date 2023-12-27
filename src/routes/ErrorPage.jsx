@@ -6,6 +6,7 @@ const ErrorPage = () => {
     <div className="toobad">
       <h2>Oops..</h2>
       <p>Bring mir einen Keks, vielleicht behebe ich den Fehler dann.</p>
+      <br />
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
