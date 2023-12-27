@@ -31,7 +31,7 @@
 
   &__content {
     width: 100%;
-    max-width: 90vw;
+    max-width: 20vw;
     height: 34.9vh;
     text-align: left;
     margin: 2em auto;
@@ -47,6 +47,12 @@
         line-height: 1.2em;
         color: $secondary;
       }
+    }
+  }
+
+  @include media-medium {
+    &__content {
+      max-width: 90vw;
     }
   }
 }
