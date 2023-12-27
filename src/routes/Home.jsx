@@ -54,11 +54,12 @@ const Home = () => {
           <div className="card">
             <IoClose className="card__icon" />
 
-            <h5 className="card__title">Hier ist noch nichts</h5>
+            <h5 className="card__title">
+              Warum sollte man PuttyParty Spielen?
+            </h5>
             <p className="card__text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Doloribus molestiae natus ducimus provident possimus vitae? Eaque
-              nesciunt earum nulla totam laborum voluptate sed eligendi.
+              Weil PuttyParty helfen kann beim Stressabbau und dir bei deinen
+              alltäglichen Problemen helfen kann. ~ nico
             </p>
           </div>
         </div>
