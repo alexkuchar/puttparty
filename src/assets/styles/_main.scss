@@ -1,0 +1,12 @@
+/* BASE */
+@import './base/reset';
+@import '/public/fonts/poppins/poppins';
+@import '/public/fonts/lato/lato';
+@import './abstracts/variables';
+@import './base/typography';
+
+/* LAYOUT */
+@import './layout/navbar';
+
+/* PAGES */
+@import './pages/home';
